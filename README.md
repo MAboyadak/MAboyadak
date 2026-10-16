@@ -19,6 +19,7 @@
 ## Open source
 
 - **[laravel/framework#61869](https://github.com/laravel/framework/pull/61869)**: skip building a query in `Collection::loadMissing()` when no relations are given. Found while upgrading a production service to Laravel 13; merged and released in v13.35.0.
+- **[flugg/laravel-responder#215](https://github.com/flugg/laravel-responder/pull/215)**: skip eager loading for Eloquent collections that don't contain models, fixing a Laravel 13 compatibility issue found during the same upgrade.
 
 ## Tech stack
 
